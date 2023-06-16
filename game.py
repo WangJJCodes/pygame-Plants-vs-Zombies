@@ -22,7 +22,7 @@ class Map():
         self.can_grow = True
     #3 加载地图
     def load_map(self):
-         MainGame.window.blit(self.image,self.position)
+        MainGame.window.blit(self.image,self.position)
 #4 植物类
 class Plant(pygame.sprite.Sprite):
     def __init__(self):
